@@ -1,0 +1,160 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+chat_app.db
+*.db-journal
+
+# ChromaDB vector database
+chroma_db/
+chrome_db/
+chroma/
+
+# Uploaded documents and user files
+documents/
+uploads/
+user_files/
+*.pdf
+*.docx
+*.csv
+*.json
+*.txt
+*.md
+*.xlsx
+*.xls
+
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+.env.dev
+.env.test
+secrets.ini
+config.ini
+*.key
+*.pem
+*.crt
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+log/
+
+# Ollama models and cache (if applicable)
+.ollama/
+ollama_models/
+
+# Streamlit cache
+.streamlit/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.coverage*
+*,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+.directory
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+*~
