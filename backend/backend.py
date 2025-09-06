@@ -30,13 +30,13 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Configuration
-SECRET_KEY = "9cc1e4d7ded6927549a75b818dae083195882a2d985db1dfe258c3516e0b5496"
+SECRET_KEY = "Your secret key"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
-EMAIL_USER = "sujayc331@gmail.com"  # Your email
-EMAIL_PASSWORD = "qial tpfo ddzx eomm"  # Your app password
+EMAIL_USER = "Your mail id"  # Your email
+EMAIL_PASSWORD = "Your app password"  # Your app password
 
 app = FastAPI(title="LLM Chat API", version="1.0.0")
 
@@ -910,4 +910,5 @@ async def health_check():
 
 if __name__ == "__main__":
     import uvicorn
+
     uvicorn.run(app, host="0.0.0.0", port=8000)
